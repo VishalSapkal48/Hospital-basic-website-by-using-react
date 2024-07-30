@@ -1,0 +1,95 @@
+/* Container styling for the form and image */
+.Fromandimage {
+    overflow-x: hidden; 
+    padding: 20px; /* Add padding to container */
+    background-color: #f8f9fa; /* Light background color for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Styling for the form container */
+.froms {
+    background-color: aquamarine;
+    margin: 20px auto; /* Center container with auto margins */
+    text-align: center;
+    padding: 40px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for form */
+    max-width: 600px; /* Limit maximum width */
+}
+
+/* Styling for form inputs */
+.username {
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #ced4da; /* Border color */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+/* Styling for submit button */
+.submit {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px 20px; /* Padding for button */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 16px; /* Font size for readability */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.submit:hover {
+    background-color: #f1c40f; /* Darker yellow on hover */
+}
+
+/* Styling for labels */
+label {
+    font-size: 18px; /* Slightly smaller font size for better spacing */
+    font-weight: 600;
+    display: block; /* Block display to ensure each label is on a new line */
+    margin-bottom: 0.5rem; /* Margin below labels */
+}
+
+/* General form styling */
+.form-group {
+    margin-bottom: 1rem; /* Spacing between form fields */
+}
+
+.img
+{
+    background-color: #9e9d9a;
+    margin-right: 30px;
+    background-image: url(C:\Users\HP\OneDrive\Desktop\vishal\reacat\second\src\img\feature.jpg);
+    
+}
+/* Add this CSS to your stylesheet or <style> block */
+.img {
+    padding: 20px;
+    border: 1px solid #595353; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #353333; /* Light background color */
+  }
+  
+  .img h1 {
+    font-size: 1.5em;
+    color: #333; /* Dark gray color for the headings */
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd; /* Underline for headings */
+    padding-bottom: 5px;
+  }
+  
+  .img p {
+    font-size: 1em;
+    color: #666; /* Medium gray color for the text */
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .img p:last-of-type {
+    margin-bottom: 0; /* Remove bottom margin for the last paragraph */
+  }
+  

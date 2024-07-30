@@ -1,0 +1,39 @@
+/* This CSS file will style the boxes in your DocImage component */
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between boxes */
+    height: 300px;
+  }
+  
+  .box1, .box2, .box3, .box4 {
+    flex: 1 1 calc(25% - 10px); /* Responsive boxes with 4 columns */
+    background-color: #f0f0f0; /* Light grey background */
+    border: 1px solid #ddd; /* Light border */
+    padding: 20px; /* Padding inside each box */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+  }
+  
+  /* Optional: Add more specific styles for each box */
+  .box1 {
+    background-color: #ffcccc; /* Light red */
+    background-image: url(C:\Users\HP\OneDrive\Desktop\vishal\reacat\second\src\img\team-1.jpg);
+    background-size: cover;
+  }
+  
+  .box2 {
+    background-color: #ccffcc; /* Light green */
+    background-image: url(C:\Users\HP\OneDrive\Desktop\vishal\reacat\second\src\img\team-2.jpg);
+  }
+  
+  .box3 {
+    background-color: #ccccff; /* Light blue */
+     background-image: url(C:\Users\HP\OneDrive\Desktop\vishal\reacat\second\src\img\team-3.jpg);
+  }
+  
+  .box4 {
+    background-color: #ffffcc; /* Light yellow */
+    background-image: url(C:\Users\HP\OneDrive\Desktop\vishal\reacat\second\src\img\team-4.jpg);
+  }
+  

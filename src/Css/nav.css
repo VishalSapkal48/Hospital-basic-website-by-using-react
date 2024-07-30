@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: inline-block; /* Changed to inline-block for better layout handling */
+    width: 100%;
+    overflow-x: hidden; 
+}
+
+.navbar .child {
+    background-color: rgb(196, 196, 246);
+    height: 100px;
+    display: flex; /* Use flex for layout control */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between child elements */
+ /* Add padding for spacing */
+}
+
+.child .first {
+    color: blue;
+    margin: 20px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+
+.child .second ul {
+    display: flex;
+    margin: 20px 0;
+    gap: 3rem;
+    padding: 0; /* Remove default padding */
+}
+
+.child .second ul li {
+    list-style: none; /* Remove default list styling */
+}
+
+.child .second ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center; /* Center the text */
+    display: block; /* Make the anchor a block element */
+    padding: 5px 10px; /* Add padding for better click area */
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px; /* Add padding for better button size */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    text-align: center; /* Center text within the button */
+}
